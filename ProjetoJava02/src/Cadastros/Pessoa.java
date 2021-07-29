@@ -11,7 +11,24 @@ public class Pessoa {
 	private String email;
 	private String endereco;
 	private Date data;
+	private String CPF;
 	
+	public Date getData() {
+		return data;
+	}
+
+	public void setData(Date data) {
+		this.data = data;
+	}
+
+	public String getCPF() {
+		return CPF;
+	}
+
+	public void setCPF(String cPF) {
+		CPF = cPF;
+	}
+
 	public String getEmail() {
 		return email;
 	}
@@ -54,3 +71,5 @@ public class Pessoa {
 
 	private String dataNascimento;
 }
+
+
