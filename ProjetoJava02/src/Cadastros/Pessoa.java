@@ -1,11 +1,16 @@
 package Cadastros;
 
+import java.sql.Date;
+
+import javax.xml.crypto.Data;
+
 public class Pessoa {
 	
 	private String nome;
 	private int idade;
 	private String email;
 	private String endereco;
+	private Date data;
 	
 	public String getEmail() {
 		return email;
