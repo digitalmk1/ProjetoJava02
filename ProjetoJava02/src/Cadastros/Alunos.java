@@ -12,7 +12,7 @@ public class Alunos {
 	int resultado = (nota1 + nota2 + nota3)/3;
 	
 	int total = nota1+ nota2 + nota3;
-	
+	//Você pode esta usando double no lugar de um intereiro no campo resultado
 		
 		if(total >=23) {
 			System.out.println("Aluno " + nome + " Aprovado com media "+  resultado + " Total de pontos "+ total);
