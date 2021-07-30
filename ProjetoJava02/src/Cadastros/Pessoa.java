@@ -12,7 +12,16 @@ public class Pessoa {
 	private String endereco;
 	private Date data;
 	private String CPF;
+	private String Teste;
 	
+	public String getTeste() {
+		return Teste;
+	}
+
+	public void setTeste(String teste) {
+		Teste = teste;
+	}
+
 	public Date getData() {
 		return data;
 	}
