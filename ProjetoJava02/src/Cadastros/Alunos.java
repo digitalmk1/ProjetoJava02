@@ -11,10 +11,10 @@ public class Alunos {
 //para esta em recuperação o aluno deve ter uma nota entre 50 a 59
 // Caso seja menor quero que esse aluno serja reprovado.
 
-		int nota1 = 50;
+		int nota1 = 80;
 		int nota2 = 60;
 		int nota3 = 40;
-		int nota4 = 60;
+		int nota4 = 75;
 		int media = 0;
 		String aluno = "Marcio";
 
@@ -36,12 +36,16 @@ public class Alunos {
 			
 			System.out.println(" Aluno " + aluno + " Reprovado " + media);
 		} */
-              /*Operadores ternarios para micro validações com */
+              
+		
+		
+		         /*Operadores ternarios para micro validações com */
 		
 		String saidaResultado;
 		
-		saidaResultado = media >=50? "Aluno Aprovado":"Aluno Reprovado";
+		saidaResultado = media >=60? "Aluno Aprovado":(media >= 40 && media <= 59) ? "Aluno em Recuperação": "Aluno reprovado";
 		
+		// nesse exemplo o else é representado por : coloca todos os codigos em 1 linha
 		System.out.println(saidaResultado +" " + media );
 	}
 }
