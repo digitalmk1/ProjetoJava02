@@ -14,12 +14,13 @@ public class Alunos {
 		int nota1 = 50;
 		int nota2 = 60;
 		int nota3 = 40;
-		int nota4 = 45;
+		int nota4 = 60;
 		int media = 0;
 		String aluno = "Marcio";
 
+		// codição logica com IF E ELSE
 		media = (nota1 + nota2 + nota3 + nota4) / 4;
-
+            /*
 		if (media == 60) {
 
 			System.out.println("Aluno " + aluno + " Aprovado com media " + media);
@@ -34,7 +35,13 @@ public class Alunos {
 		}else {
 			
 			System.out.println(" Aluno " + aluno + " Reprovado " + media);
-		}
-
+		} */
+              /*Operadores ternarios para micro validações com */
+		
+		String saidaResultado;
+		
+		saidaResultado = media >=50? "Aluno Aprovado":"Aluno Reprovado";
+		
+		System.out.println(saidaResultado +" " + media );
 	}
 }
