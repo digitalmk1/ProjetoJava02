@@ -6,9 +6,17 @@ public class Exercicio_03_For {
 	
 	public static void main(String[] args) {
 		
-		for(int numero=10; numero >=0;numero--){
+		//String produto = "COCACOLA 3 LITROS ";
+		for(int numero=0; numero <=10;numero++){
+			if(numero ==7) {
+				
+				System.out.println( "Achei o numero  "+ numero);
+				
+				break;
+				
+			}
 			
-			System.out.println("contando : "+ numero);
+			
 		}
 	}
 
